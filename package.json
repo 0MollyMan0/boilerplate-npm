@@ -1,10 +1,7 @@
 {
 	"name": "fcc-backend-api",
-	"dependencies": {
-		"express": "^4.14.0",
-		"fcc-backend-api": "file:",
-		"fcc-learn-npm-package-json": "file:"
-	},
+	"version": "1.0.0",
+	"description": "idw",
 	"main": "server.js",
 	"scripts": {
 		"start": "node server.js"
@@ -13,12 +10,15 @@
 		"type": "git",
 		"url": "git+https://github.com/0MollyMan0/boilerplate-npm.git"
 	},
-	"version": "1.0.0",
-	"description": "idw",
 	"author": "Molly Man",
 	"license": "ISC",
 	"bugs": {
 		"url": "https://github.com/0MollyMan0/boilerplate-npm/issues"
 	},
-	"homepage": "https://github.com/0MollyMan0/boilerplate-npm#readme"
+	"homepage": "https://github.com/0MollyMan0/boilerplate-npm#readme",
+	"dependencies": {
+		"express": "^4.14.0",
+		"fcc-backend-api": "file:",
+		"fcc-learn-npm-package-json": "file:"
+	}
 }
