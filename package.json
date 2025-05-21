@@ -1,7 +1,9 @@
 {
-	"name": "fcc-learn-npm-package-json",
+	"name": "fcc-backend-api",
 	"dependencies": {
-		"express": "^4.14.0"
+		"express": "^4.14.0",
+		"fcc-backend-api": "file:",
+		"fcc-learn-npm-package-json": "file:"
 	},
 	"main": "server.js",
 	"scripts": {
@@ -9,6 +11,14 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/freeCodeCamp/boilerplate-npm.git"
-	}
+		"url": "git+https://github.com/0MollyMan0/boilerplate-npm.git"
+	},
+	"version": "1.0.0",
+	"description": "idw",
+	"author": "0MollyMan0",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/0MollyMan0/boilerplate-npm/issues"
+	},
+	"homepage": "https://github.com/0MollyMan0/boilerplate-npm#readme"
 }
